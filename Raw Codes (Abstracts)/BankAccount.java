@@ -24,8 +24,8 @@ public class BankAccount {
         return balance;
     }
 
-    public void transfer(double amount, BankAccount other) {
+    public void transfer(double amount, BankAccount _amount) {
         withdraw(amount);
-        other.deposit(amount);
+        _amount.deposit(amount);
     }
 }
