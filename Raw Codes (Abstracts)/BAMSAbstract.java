@@ -18,7 +18,7 @@ public class BAMSAbstract {
         withdraw.deductFees();
 
         System.out.println("My savings balance: " + mySavings.getBalance());
-        System.out.println("Harry's checking balance: " + withdraw.getBalance());
+        System.out.println("Checking balance: " + withdraw.getBalance());
     }
 
 }
