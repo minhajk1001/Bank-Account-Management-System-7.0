@@ -9,10 +9,10 @@ public class BAMSAbstract {
         mySavings.deposit(10000);
         mySavings.transfer(2000, withdraw);
         withdraw.withdraw(1500);
-        withdraw.withdraw(80); 
+        withdraw.withdraw(100); 
 
-        mySavings.transfer(1000, withdraw);
-        withdraw.withdraw(400);
+        mySavings.transfer(2000, withdraw);
+        withdraw.withdraw(500);
 
         mySavings.addInterest();
         withdraw.deductFees();
