@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="496.0" prefWidth="586.0" style="-fx-background-color: #E7E7E7;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxtest08.UserDetailsController">
+   <children>
+      <Text fontSmoothingType="LCD" layoutX="199.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="USER DETAILS PANEL">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="51.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NAME                  " wrappingWidth="153.8671875">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="51.0" layoutY="266.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PROFESSION          " wrappingWidth="153.8671875">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="342.0" layoutY="265.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DoB" wrappingWidth="153.8671875">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="342.0" layoutY="298.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AGE" wrappingWidth="153.8671875">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="342.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SEX                        " wrappingWidth="153.8671875">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="51.0" layoutY="299.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PHONE                    " wrappingWidth="153.8671875">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="51.0" layoutY="333.0" strokeType="OUTSIDE" strokeWidth="0.0" text="E-MAIL" wrappingWidth="153.8671875">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="51.0" layoutY="368.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ADDRESS" wrappingWidth="153.8671875">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="51.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BALANCE" wrappingWidth="153.8671875">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="51.0" layoutY="178.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ACC. TYPE" wrappingWidth="153.8671875">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="51.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ACCOUNT" wrappingWidth="153.8671875">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Label fx:id="name" layoutX="157.0" layoutY="215.0" prefHeight="17.0" prefWidth="162.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="profession" layoutX="157.0" layoutY="247.0" prefHeight="17.0" prefWidth="162.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="phone" layoutX="157.0" layoutY="280.0" prefHeight="17.0" prefWidth="162.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="email" layoutX="157.0" layoutY="314.0" prefHeight="17.0" prefWidth="162.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="address" layoutX="157.0" layoutY="349.0" prefHeight="17.0" prefWidth="162.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="sex" layoutX="388.0" layoutY="213.0" prefHeight="17.0" prefWidth="162.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="dob" layoutX="388.0" layoutY="247.0" prefHeight="17.0" prefWidth="162.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="accType" layoutX="136.0" layoutY="159.0" prefHeight="25.0" prefWidth="162.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="age" layoutX="388.0" layoutY="280.0" prefHeight="17.0" prefWidth="162.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="transactionId" layoutX="136.0" layoutY="88.0" prefHeight="25.0" prefWidth="162.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="balance" layoutX="136.0" layoutY="124.0" prefHeight="25.0" prefWidth="162.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button layoutX="219.0" layoutY="402.0" mnemonicParsing="false" onAction="#showUserDetails" style="-fx-background-color: #35AECB;" text="Show User Details" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

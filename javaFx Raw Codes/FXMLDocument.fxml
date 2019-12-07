@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane fx:id="mainScene" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="570.0" prefWidth="770.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxtest08.FXMLDocumentController">
+   <left>
+      <AnchorPane prefHeight="496.0" prefWidth="184.0" style="-fx-background-color: #1E1E1E;" BorderPane.alignment="CENTER">
+         <children>
+            <Button layoutX="7.0" layoutY="36.0" mnemonicParsing="false" onAction="#registrationPane" prefHeight="38.0" style="-fx-background-color: #009933;" text="REGISTRATION" textFill="WHITE" AnchorPane.bottomAnchor="422.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0">
+               <font>
+                  <Font name="Arial Bold" size="17.0" />
+               </font>
+            </Button>
+            <Button layoutX="7.0" layoutY="151.0" mnemonicParsing="false" onAction="#depositPane" prefHeight="38.0" style="-fx-background-color: #10416C;" text="DEPOSIT" textFill="WHITE" AnchorPane.bottomAnchor="307.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="8.0">
+               <font>
+                  <Font name="Arial Bold" size="17.0" />
+               </font>
+            </Button>
+            <Button layoutX="7.0" layoutY="207.0" mnemonicParsing="false" onAction="#withdrawPane" prefHeight="38.0" style="-fx-background-color: #10416C;" text="WITHDRAW" textFill="WHITE" AnchorPane.bottomAnchor="251.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="8.0">
+               <font>
+                  <Font name="Arial Bold" size="17.0" />
+               </font>
+            </Button>
+            <Button layoutX="6.0" layoutY="266.0" mnemonicParsing="false" onAction="#transferPane" prefHeight="38.0" style="-fx-background-color: #10416C;" text="TRANSFER" textFill="#fcfcfc" AnchorPane.bottomAnchor="192.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="7.0">
+               <font>
+                  <Font name="Arial Bold" size="17.0" />
+               </font>
+            </Button>
+            <Button layoutX="6.0" layoutY="325.0" mnemonicParsing="false" onAction="#userDetailsPane" prefHeight="38.0" style="-fx-background-color: #10416C;" text="USER DETAILS" textFill="WHITE" AnchorPane.bottomAnchor="133.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="6.0">
+               <font>
+                  <Font name="Arial Bold" size="17.0" />
+               </font>
+            </Button>
+            <Button layoutX="97.0" layoutY="383.0" mnemonicParsing="false" onAction="#NewUser" prefHeight="29.0" prefWidth="80.0" style="-fx-background-color: #F14B25;" text="CLEAR" textFill="WHITE" AnchorPane.bottomAnchor="84.0" AnchorPane.leftAnchor="97.0" AnchorPane.rightAnchor="7.0" AnchorPane.topAnchor="383.0">
+               <font>
+                  <Font name="Arial Bold" size="13.0" />
+               </font>
+            </Button>
+            <Button layoutX="6.0" layoutY="383.0" mnemonicParsing="false" onAction="#aboutPane" prefHeight="29.0" prefWidth="75.0" style="-fx-background-color: #10416C;" text="ABOUT" textFill="WHITE" AnchorPane.bottomAnchor="84.0" AnchorPane.leftAnchor="6.0" AnchorPane.topAnchor="383.0">
+               <font>
+                  <Font name="Arial Bold" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="registrationPane" layoutX="6.0" layoutY="432.0" mnemonicParsing="false" onAction="#accountofficerPane" prefHeight="29.0" prefWidth="168.0" style="-fx-background-color: #10416C;" text="ACCOUNCE OFFICER" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="13.0" />
+               </font>
+            </Button>
+            <Button layoutX="7.0" layoutY="94.0" mnemonicParsing="false" onAction="#existingUser" prefHeight="38.0" prefWidth="168.0" style="-fx-background-color: #10416C;" text="EXISTING USER" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="17.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </left>
+   <top>
+      <AnchorPane prefHeight="74.0" prefWidth="770.0" style="-fx-background-color: #191919;" BorderPane.alignment="CENTER">
+         <children>
+            <Text fill="WHITE" layoutX="120.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BANK ACCOUNT MANAGEMENT SYSTEM">
+               <font>
+                  <Font name="Cambria Math" size="30.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </top>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #E7E7E7;" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>

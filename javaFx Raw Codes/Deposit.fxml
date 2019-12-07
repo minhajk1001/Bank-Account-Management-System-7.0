@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="496.0" prefWidth="586.0" style="-fx-background-color: #E7E7E7;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxtest08.DepositController">
+   <children>
+      <Text fontSmoothingType="LCD" layoutX="246.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DEPOSIT">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="21.0" />
+         </font>
+      </Text>
+      <Label layoutX="183.0" layoutY="109.0" prefHeight="22.0" prefWidth="231.0">
+         <font>
+            <Font name="Cambria Math" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="183.0" layoutY="143.0" prefHeight="22.0" prefWidth="231.0" style="-fx-background-color: #;">
+         <font>
+            <Font name="Cambria Math" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="183.0" layoutY="176.0" prefHeight="22.0" prefWidth="231.0">
+         <font>
+            <Font name="Cambria Math" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="183.0" layoutY="209.0" prefHeight="22.0" prefWidth="231.0">
+         <font>
+            <Font name="Cambria Math" size="18.0" />
+         </font>
+      </Label>
+      <Text layoutX="182.0" layoutY="324.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Amount">
+         <font>
+            <Font name="Cambria Math" size="18.0" />
+         </font>
+      </Text>
+      <TextField layoutX="272.0" layoutY="306.0" />
+      <Button layoutX="347.0" layoutY="346.0" mnemonicParsing="false" style="-fx-background-color: #35AECB;" text="Deposit" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
